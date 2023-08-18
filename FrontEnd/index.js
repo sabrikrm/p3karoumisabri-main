@@ -154,7 +154,7 @@ function checkToken() {
   const token = localStorage.getItem("token");
   if (token) {
     
-    console.log("token present dans le local storage , mode admin DESACTIVÉ");
+    console.log("token present dans le local storage , mode admin ACTIVÉ");
     adminEdition();
   } else {
     console.log("Pas de token dans le local storage , mode admin DESACTIVÉ");

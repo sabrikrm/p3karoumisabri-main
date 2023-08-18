@@ -65,7 +65,7 @@ async function loginUser() {
       console.log(logUser);
     } else if (data.error) {
       passwordError.textContent = "mot de passe incorrect";
-      loginError.textContent = "";
+      loginError.textContent = "identifiant incorrect";
    
 
 
