@@ -60,12 +60,12 @@ async function loginUser() {
         console.log(data);
       });
     if (data.message) {
-      loginError.textContent = "identifiant incorrect";
+      loginError.textContent = "données de connexion incorrect";
    
       console.log(logUser);
     } else if (data.error) {
-      passwordError.textContent = "mot de passe incorrect";
-      loginError.textContent = "identifiant incorrect";
+      passwordError.textContent = "données de connexion incorrect";
+      loginError.textContent = "données de connexion incorrect";
    
 
 
