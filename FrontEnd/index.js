@@ -176,7 +176,7 @@ window.addEventListener("unload", removeToken);
 
 function adminEdition() {
   adminHTML();
-  //*************************************OPEN 1ER MODAL EDIT SUPRESSION
+  //************************************* MODAL EDIT SUPRESSION
 
   const modalJs = document.getElementById("titleProjectRemove");
 
@@ -281,7 +281,7 @@ function openModal() {
 
   //*************************************INJECTION DES ELEMENTS FETCHER
   // Récupérer les liens des images
-  // mnouveau tableau
+  // nouveau tableau
   const imagesUrl = [...document.querySelectorAll(".gallery img")].map((img) =>
     img.getAttribute("src")
   );
